@@ -50,17 +50,16 @@ The system should be extended to expose the following REST APIs:
 ##### Application requirements
 
 1. JDK version: 8. Use Streams, java.time.*, an etc. where it is appropriate. (the JDK version can be increased in agreement with the mentor/group coordinator/run coordinator)
-2. Application packages root: com.epam.esm.
-3. Java Code Convention is mandatory (exception: margin size –120 characters).
-4. Apache Maven/Gradle, latest version. Multi-module project.
-5. Spring Framework, the latest version.
-6. Database: PostgreSQL/MySQL, latest version.
-7. Testing: JUnit, the latest version, Mockito.
-8. Service layer should be covered with unit tests not less than 80%.
-9. Hibernate should be used as a JPA implementation for data access.
-10. Spring Transaction should be used in all necessary areas of the application.
-11. Audit data should be populated using JPA features (an example can be found in materials).
-12. Generate for a demo at least 
+2. Java Code Convention is mandatory (exception: margin size –120 characters).
+3. Apache Maven/Gradle, latest version. Multi-module project.
+4. Spring Framework, the latest version.
+5. Database: PostgreSQL/MySQL, latest version.
+6. Testing: JUnit, the latest version, Mockito.
+7. Service layer should be covered with unit tests not less than 80%.
+8. Hibernate should be used as a JPA implementation for data access.
+9. Spring Transaction should be used in all necessary areas of the application.
+10. Audit data should be populated using JPA features (an example can be found in materials).
+11. Generate for a demo at least 
      - 1000 users
      - 1000 tags
      - 10’000 gift certificates (should be linked with tags and users)
